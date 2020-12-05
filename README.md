@@ -12,7 +12,7 @@ Here, I rewrite the Fortran code using python 3 for accessibility and convenienc
   * |-- python numpy
   * |-- python numba
 
-The "python original" contains 1-to-1 translation from Fortran code with the help of numpy package to define multidimensional arrays. The "python numpy" starts introducing numpy optimization techniques to the code such as index slicing. The "python numba" is an upgraded version of the previous one with numba Just-In-Time (JIT) compiler. In term of speed, "python numba" would be the fastest one (excluding compilation time). 
+The "python original" contains 1-to-1 translation from the Fortran code with the help of the numpy package to define multidimensional arrays. The "python numpy" uses numpy optimization techniques such as index slicing to speed up the computational time. The "python numba" is an upgraded version of the previous one with numba Just-In-Time (JIT) compiler. In term of speed, "python numba" would be the fastest one (excluding compilation time). 
 
 As we would like to maintain the originality of the code, the inputs of the code are:
 
